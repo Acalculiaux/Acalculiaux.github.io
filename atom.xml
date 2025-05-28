@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Acalculiaux&#39;s blog</title>
   
-  
+  <subtitle>Acalculiaux</subtitle>
   <link href="http://acalculiaux.github.io/atom.xml" rel="self"/>
   
   <link href="http://acalculiaux.github.io/"/>
@@ -10,7 +10,7 @@
   <id>http://acalculiaux.github.io/</id>
   
   <author>
-    <name>YiZhuang Huang</name>
+    <name>YiZhao Huang</name>
     
   </author>
   
