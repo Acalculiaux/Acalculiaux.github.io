@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, FileText, Cpu, Microscope, Activity, Clock, ChevronRight, Terminal } from 'lucide-react';
+import { Cpu, Microscope, Activity, ChevronRight, Terminal } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { getAllPosts } from '@/utils/posts';
 
