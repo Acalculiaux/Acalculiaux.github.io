@@ -4,6 +4,13 @@ import { Buffer } from 'buffer'
 import App from './App.tsx'
 import './styles/global.css'
 
+// Declare Buffer on window for TypeScript
+declare global {
+  interface Window {
+    Buffer: typeof Buffer;
+  }
+}
+
 // Polyfill Buffer for gray-matter/browser compatibility
 window.Buffer = Buffer
 
