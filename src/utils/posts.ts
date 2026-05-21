@@ -12,7 +12,7 @@ export interface Post extends PostMetadata {
 }
 
 // Vite feature to import all markdown files in a directory
-const postFiles = import.meta.glob('@/content/posts/*.md', { as: 'raw', eager: true });
+const postFiles = import.meta.glob('@/content/posts/*.md', { query: '?raw', eager: true, import: 'default' });
 
 export const getAllPosts = (): PostMetadata[] => {
   return Object.keys(postFiles).map((path) => {
