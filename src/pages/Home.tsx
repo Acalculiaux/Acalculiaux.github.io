@@ -62,7 +62,7 @@ const Home: React.FC = () => {
               Research <Microscope size={18} />
             </a>
             <a href="https://github.com/Acalculiaux" target="_blank" className="px-8 py-4 border border-foreground/10 rounded-full font-medium hover:bg-foreground/5 transition-all flex items-center gap-2">
-              GitHub <Github size={18} />
+              GitHub
             </a>
           </div>
         </motion.div>
