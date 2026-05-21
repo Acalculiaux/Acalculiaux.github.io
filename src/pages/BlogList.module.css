@@ -1,0 +1,33 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+}
+
+.title:hover {
+  color: #007bff;
+}
+
+.date {
+  color: #999;
+  font-size: 0.9rem;
+}
